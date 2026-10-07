@@ -1,0 +1,48 @@
+{
+  "eeg": {
+    "source": "bae_v0.2_base.py",
+    "sha256": "b73e5582091f537f9c397e9e29517dff8963ec6a4f7950d5e33bc6739c7ae14c",
+    "model_ast_sha256": "ea738792200e4903cc65404be931f34d763e29816b7378e49c8970f89bb0adf8",
+    "model_classes_preserved": [
+      "Dec_eeg",
+      "Enc_eeg",
+      "PatchEmbedding",
+      "Proj_eeg",
+      "ResidualAdd",
+      "weights_init_normal"
+    ]
+  },
+  "meg": {
+    "source": "bae_v0.2_meg_base.py",
+    "sha256": "8e82ada762c1ec230872a6638165d20e6496fd2ddd614cbd27a5fdf1d0b1a18d",
+    "model_ast_sha256": "990e66e42915153cc12b0498551b2efbc33309a58886dbe7627923587ec55744",
+    "model_classes_preserved": [
+      "Dec_eeg",
+      "Enc_eeg",
+      "PatchEmbedding",
+      "Proj_eeg",
+      "ResidualAdd",
+      "weights_init_normal"
+    ]
+  },
+  "mua": {
+    "source": "bae_v0.2_spike_base.py",
+    "sha256": "404c1addb06793530504c72980886a762cc67a703234c2b15625e8d37fdc4f9e",
+    "model_ast_sha256": "36db66bf13dfea9752f32674d4443779e1cdda8b7a6243f3a1c0d6259577585f",
+    "model_classes_preserved": [
+      "Dec_eeg",
+      "Enc_eeg",
+      "PatchEmbedding",
+      "Proj_eeg",
+      "ResidualAdd",
+      "weights_init_normal"
+    ]
+  },
+  "assets": {
+    "mua_test_concept_train_indices.npy": {
+      "sha256": "2779d6b7dd8e9583855ac0539e6ef8d4384481fcc419262d62f228b8ca9ae249",
+      "count": 1200,
+      "description": "Original zero-based training-image exclusion rows for the native MUA corpus."
+    }
+  }
+}
